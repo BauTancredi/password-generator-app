@@ -1,9 +1,9 @@
 import { ThemeProvider } from "@mui/material/styles";
+
 import theme from "./theme";
+import PasswordGenerator from "./components/PasswordGenerator";
 
 import "./App.css";
-
-import PasswordGenerator from "./components/PasswordGenerator/PasswordGenerator";
 
 function App() {
   return (
