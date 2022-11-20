@@ -18,6 +18,7 @@ const theme = createTheme({
     h3: {
       fontSize: 24,
       color: "#778380",
+      height: 30,
     },
     body1: {
       fontSize: 16,

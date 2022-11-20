@@ -11,6 +11,24 @@ body {
   background-color: #0c0b10;
 }
 
+.password-strength-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-strength-bar {
+  width: 5px;
+  height: 20px;
+  border: 1.5px solid white;
+  margin: 0 3px;
+}
+
+.active {
+  background-color: #a4ffaf;
+  border-color: #a4ffaf;
+}
+
 /* media query for iphone */
 @media screen and (max-width: 500px) {
   .password-generator {
